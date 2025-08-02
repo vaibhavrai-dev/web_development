@@ -1,0 +1,32 @@
+ /* ye Universal Selector hai */
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+/* ye sbhi Element Selector hai */
+/* h2{
+    color:blue;
+    background-color: aquamarine; */
+    /* text */
+    /* font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+p{
+    font-weight:bolder;
+    text-decoration: underline;
+    font-style: italic;
+    line-height: 4rem;
+}  */
+  /* class selector */
+  .para{
+    color:blueviolet;
+  }
+  #unique{
+    color: brown;
+  }
+  #unique2{
+    color: green;
+  }
