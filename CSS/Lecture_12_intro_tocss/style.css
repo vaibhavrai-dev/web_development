@@ -30,3 +30,9 @@ p{
   #unique2{
     color: green;
   }
+  .some{
+    font-style: italic;
+  }
+  .para.some{
+    background-color: grey;
+  }
