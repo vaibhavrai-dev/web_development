@@ -31,18 +31,90 @@
         .grid{
             height: calc(100vh - 120px);
             background-color: lightgreen;
+            overflow: auto;
         }
          .sheet{
             height: 25px;
             border: 1px solid red;
-            background-color: blue;
+            background-color:yellowgreen;
         }
+
+        .top-row{
+            height: 1.5rem;
+            display: flex;
+        }
+
+        .top-row>* {
+            height: 100%;
+            border: 1px solid gray;
+        }
+
+
+        .top_left{
+           
+           min-width 2rem; 
+           background-color:gray;
+        }
+        .rows_box{
+            display: flex;
+            text-align: center;
+        }
+        .cell{
+            width: 4rem;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <div class="menus">Menu</div>
     <div class="formula">Formula</div>
-    <div class="grid">Grid</div>
+    <div class="grid">
+        <div class="top-row">
+            <div class="top_left">left</div>
+            <div class="rows_box">
+                <div class="cell">A</div>
+                <div class="cell">B</div>
+                <div class="cell">C</div>
+                <div class="cell">D</div>
+                <div class="cell">E</div>
+                <div class="cell">F</div>
+                <div class="cell">G</div>
+                <div class="cell">H</div>
+                <div class="cell">I</div>
+                <div class="cell">J</div>
+                <div class="cell">K</div>
+                <div class="cell">L</div>
+                <div class="cell">M</div>
+                <div class="cell">N</div>
+                <div class="cell">O</div>
+                <div class="cell">P</div>
+            </div>
+        </div>
+         <div class="top-row">
+            <div class="top_left">left</div>
+            <div class="rows  _box">
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+            </div>
+        </div>
+    
+    </div>
     <div class="sheet">Sheet</div>
     
 </body>
